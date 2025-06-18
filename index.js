@@ -4,7 +4,7 @@ const request = require("request");
 
 const app = express();
 const PAGE_ACCESS_TOKEN = "EAAJ9AW4dmHwBO2N7PGTS3mK56g6CcKRJMTkJlsoykHrLaSB2bwZBArNxlNbaZCMGZCw6Yy5I6FruPPZCNsqmDVOGkjCkNpRT0an49EppUAYDJq6DTRw7LtzXZBf230akmfzWEkTXVBRKUmczdgLk52NFOlNiv3GMnLRj5KqIxuadjmoxZCbuzqgCDCo9NC24NsBftCdQ9x3gZDZD"; // Replace this!
-const VERIFY_TOKEN = "MFGHELPERBOT"; // Set your own
+const VERIFY_TOKEN = "mfghelper"; // Set your own
 
 app.use(bodyParser.json());
 
