@@ -22,6 +22,10 @@ app.get("/webhook", (req, res) => {
   }
 });
 
+app.listen(3000, () => {
+  console.log("Server is running on port 3000");
+});
+
 // Handle incoming messages
 app.post("/webhook", (req, res) => {
   const body = req.body;
